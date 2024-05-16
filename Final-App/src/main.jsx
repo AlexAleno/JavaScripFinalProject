@@ -4,12 +4,14 @@ import App from './App.jsx'
 import './index.css'
 import Contact from './Contact.jsx'
 import Footer from './Footer.jsx'
+import StockGamer from './StockGamer.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
        <App /> 
+      
        <Footer />
-    
+     <StockGamer />
     <Contact />
   
   </React.StrictMode>,
